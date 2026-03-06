@@ -1,0 +1,18 @@
+PerformanceWindow < UIWindow
+  id: performanceWindow
+  size: 300 400
+  text: Performance Monitor
+  @onEscape: self:hide()
+  
+  anchors.centerIn: parent
+
+  Label
+    id: statsLabel
+    anchors.fill: parent
+    margin: 10
+    text-auto-resize: true
+    text-align: left
+    font: verdana-11px-monochrome
+    color: #00ff00
+    text: Loading...
+

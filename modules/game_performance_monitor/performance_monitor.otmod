@@ -1,0 +1,8 @@
+Module
+  name: game_performance_monitor
+  description: Monitor de performance em tempo real
+  author: OTC
+  sandboxed: true
+  scripts: [ simple_monitor ]
+  load-later: true
+
