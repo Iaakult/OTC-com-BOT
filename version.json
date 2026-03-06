@@ -2,5 +2,15 @@
   "revision": 1,
   "version": "OTC-1.0",
   "generation": "otc-com-bot-v1",
-  "variant": "otc-com-bot"
+  "variant": "otc-com-bot",
+  "assets_bundle_urls": [
+    "assets.bundle.part1.zip",
+    "assets.bundle.part2.zip"
+  ],
+  "assets_bundle_sha256_list": [
+    "ce54c0b895ed64a5d9cf524aa5c165ceb5a063e93ee38b60ed5f12c3a421b766",
+    "d29362ea5b047c9db64ed85671e2aa06e8009da8a46ed3520497d1d321de8be9"
+  ],
+  "assets_bundle_url": "assets.bundle.part1.zip",
+  "assets_bundle_sha256": "ce54c0b895ed64a5d9cf524aa5c165ceb5a063e93ee38b60ed5f12c3a421b766"
 }
